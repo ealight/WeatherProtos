@@ -13,6 +13,7 @@ service WeatherService {
 
 message WeatherRequestByName {
   string name = 1;
+  string cringe = 2;
 }
 
 message WeatherReply {
