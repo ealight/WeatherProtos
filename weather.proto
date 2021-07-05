@@ -13,7 +13,6 @@ service WeatherService {
 
 message WeatherRequestByName {
   string name = 1;
-  string city = 2;
 }
 
 message WeatherReply {
