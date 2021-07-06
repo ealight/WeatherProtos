@@ -20,7 +20,7 @@ message WeatherCity {
 }
 
 message WeatherReply {
-  WeatherCity city = 1;
+  optional WeatherCity city = 1;
   int64 dt = 2;
   Main main = 3;
   int32 timezone = 7;
