@@ -4,8 +4,6 @@ package weather;
 ////////////////////////////////////// The greeting service definition.
 service WeatherService {
   rpc GetWeatherByCityName (WeatherRequestByName) returns (WeatherReply) {}
-  rpc GetWeathersByCityName (WeatherRequestByName) returns (stream WeatherReply) {}
-  rpc GetAllWeathers (google.protobuf.Empty) returns (stream WeatherReply) {}
 }
 
 message WeatherRequestByName {
